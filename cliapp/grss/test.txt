@@ -1,0 +1,52 @@
+foo: 10
+bar: 20
+baz: 30
+Version;3.36 SP1;
+Date;26.Nov 18;
+Mode;Receiver;
+Start;10000000.000000;Hz
+Stop;30000
+}
+
+1 similar code variation is grouped with this one
+
+        Best Practices47
+        Clever34
+    0
+    Fork
+    Compare with your solution
+    Link00000.000000;Hz
+x-Axis;LIN;
+Detector;MAX PEAK;
+Scan Count;1;
+Transducer;;;;;;;;
+Scan 2:
+Start;30250000.000000;Hz
+Stop;3000000000.000000;Hz
+Step;250000.000000;Hz
+RBW;1000000.000000;Hz
+Meas Time;0.500000;s
+Auto Ranging;OFF;
+RF Att;10.000000;dBfn square_sum(vec: Vec<i32>) -> i32 {
+  vec.iter().fold(0, |t,i| t + i*i)
+
+
+raidiun, 2grit4, timHau
+
+fn square_sum(vec: Vec<i32>) -> i32 {
+    vec.iter().map(|v| v.pow(2)).sum()
+}
+Auto Preamp;OFF;
+Preamp;0.000000;dB
+TRACE 1:
+Trace Mode;MAX HOLD;
+x-Unit;Hz;
+10500000.000000;-16.644810;
+10750000.000000;-19.630585;
+11000000.000000;-20.621613;
+11250000.000000;-20.685699;
+11500000.000000;-20.008835;
+11750000.000000;-18.687325;
+12000000.000000;-16.873722;
+12250000.000000;-13.961720;
+15750000.000000;1.355377;
